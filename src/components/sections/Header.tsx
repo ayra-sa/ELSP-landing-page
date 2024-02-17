@@ -1,8 +1,8 @@
 import React from "react";
 import Button from "../Button";
-import Logo from "../../assets/images/logo.svg";
-import Bars from "../../assets/icons/u_bars.svg";
-import Close from "../../assets/icons/close.svg";
+import Logo from "/assets/images/logo.svg";
+import Bars from "/assets/icons/u_bars.svg";
+import Close from "/assets/icons/close.svg";
 
 const Header = () => {
   const navbarMenu = [

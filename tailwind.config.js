@@ -14,10 +14,10 @@ export default {
         primary: "#FF7116",
       },
       backgroundImage: {
-        "hero": "url('/src/assets/images/hero.png')",
-        "ekosistem": "url('/src/assets/images/sertifikasi-bg.png')",
-        "footer": "url('/src/assets/images/footer-bg.png')",
-        "footer-mobile": "url('/src/assets/images/footer-bg-mobile.png')",
+        "hero": "url('/assets/images/hero.png')",
+        "ekosistem": "url('/assets/images/sertifikasi-bg.png')",
+        "footer": "url('/assets/images/footer-bg.png')",
+        "footer-mobile": "url('/assets/images/footer-bg-mobile.png')",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

@@ -1,7 +1,7 @@
 import React from "react";
 import NavigationButton from "../NavigationButton";
 import useWindowSize from "../../lib/useWindowSize";
-import ArtikelImage from "../../assets/images/artikel.png";
+import ArtikelImage from "/assets/images/artikel.png";
 
 interface ArtikelCardProps {
   image: string;
@@ -45,46 +45,46 @@ const Artikel = () => {
     {
       title:
         "Staf Analisis Sumber daya Manusia (SDM) dan Peningkatan Sumber hidup",
-      image: "./src/assets/images/artikel-1.png",
+      image: "/assets/images/artikel-1.png",
       label: "Akuntansi dan Finance",
       author: "LSP MSDM Indonesia",
-      authorImage: "./src/assets/images/author-image.png",
+      authorImage: "/assets/images/author-image.png",
     },
     {
       title:
         "Staf Analisis Sumber daya Manusia (SDM) dan Peningkatan Sumber hidup",
-      image: "./src/assets/images/artikel-2.png",
+      image: "/assets/images/artikel-2.png",
       label: "Akuntansi dan Finance",
       author: "LSP MSDM Indonesia",
-      authorImage: "./src/assets/images/author-image.png",
+      authorImage: "/assets/images/author-image.png",
     },
     {
       title: "Analisa Pasar global di tengah macro ekonomi indonesia",
-      image: "./src/assets/images/artikel-3.png",
+      image: "/assets/images/artikel-3.png",
       label: "Akuntansi dan Finance",
       author: "LSP MSDM Indonesia",
-      authorImage: "./src/assets/images/author-image.png",
+      authorImage: "/assets/images/author-image.png",
     },
     {
       title: "Analisa Pasar global di tengah macro ekonomi indonesia",
-      image: "./src/assets/images/artikel-4.png",
+      image: "/assets/images/artikel-4.png",
       label: "Akuntansi dan Finance",
       author: "LSP MSDM Indonesia",
-      authorImage: "./src/assets/images/author-image.png",
+      authorImage: "/assets/images/author-image.png",
     },
     {
       title: "Analisa Pasar global di tengah macro ekonomi indonesia",
-      image: "./src/assets/images/artikel-1.png",
+      image: "/assets/images/artikel-1.png",
       label: "Akuntansi dan Finance",
       author: "LSP MSDM Indonesia",
-      authorImage: "./src/assets/images/author-image.png",
+      authorImage: "/assets/images/author-image.png",
     },
     {
       title: "Analisa Pasar global di tengah macro ekonomi indonesia",
-      image: "./src/assets/images/artikel-2.png",
+      image: "/assets/images/artikel-2.png",
       label: "Akuntansi dan Finance",
       author: "LSP MSDM Indonesia",
-      authorImage: "./src/assets/images/author-image.png",
+      authorImage: "/assets/images/author-image.png",
     },
   ];
 

@@ -17,19 +17,19 @@ const Mitra = () => {
   const mitraLSP = [
     {
       mitra: "LSP MSDM",
-      mitraImage: "/src/assets/images/lsp-msdm.png",
+      mitraImage: "/assets/images/lsp-msdm.png",
     },
     {
       mitra: "cammy",
-      mitraImage: "/src/assets/images/camy.png",
+      mitraImage: "/assets/images/camy.png",
     },
     {
       mitra: "LSP MSDM",
-      mitraImage: "/src/assets/images/mekari.png",
+      mitraImage: "/assets/images/mekari.png",
     },
     {
       mitra: "cammy",
-      mitraImage: "/src/assets/images/google.png",
+      mitraImage: "/assets/images/google.png",
     },
   ];
   return (

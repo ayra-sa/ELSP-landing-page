@@ -1,9 +1,9 @@
-import LogoFooter from "../../assets/images/logo-footer.png";
-import Whatsapp from "../../assets/icons/wa.svg";
-import Mail from "../../assets/icons/mail.svg";
-import Facebook from "../../assets/icons/facebook.svg";
-import Google from "../../assets/icons/google.svg";
-import Kominfo from "../../assets/images/kominfo.png";
+import LogoFooter from "/assets/images/logo-footer.png";
+import Whatsapp from "/assets/icons/wa.svg";
+import Mail from "/assets/icons/mail.svg";
+import Facebook from "/assets/icons/facebook.svg";
+import Google from "/assets/icons/google.svg";
+import Kominfo from "/assets/images/kominfo.png";
 
 const Footer = () => {
   const footerMenu = [

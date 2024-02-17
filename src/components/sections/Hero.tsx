@@ -1,6 +1,6 @@
 import Button from "../Button";
-import FriendListMobile from '../../assets/images/friend-list-mobile.png'
-import FriendList from '../../assets/images/friend-list.png'
+import FriendListMobile from '/assets/images/friend-list-mobile.png'
+import FriendList from '/assets/images/friend-list.png'
 
 const Hero = () => {
   return (

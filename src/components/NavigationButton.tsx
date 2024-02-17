@@ -1,6 +1,6 @@
 import React from 'react'
-import ArrowRight from '../assets/icons/arrow-right.svg'
-import ArrowLeft from '../assets/icons/arrow-left.svg'
+import ArrowRight from '/assets/icons/arrow-right.svg'
+import ArrowLeft from '/assets/icons/arrow-left.svg'
 
 interface NavigationButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
     direction: 'next' | 'prev';
