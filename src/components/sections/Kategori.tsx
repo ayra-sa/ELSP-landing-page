@@ -21,51 +21,51 @@ const Kategori = () => {
   const listKategori = [
     {
       title: "Perindustrian",
-      icon: "/src/assets/icons/perindustrian.svg",
+      icon: "./src/assets/icons/perindustrian.svg",
     },
     {
       title: "Utility dan Limbah",
-      icon: "/src/assets/icons/utility.svg",
+      icon: "./src/assets/icons/utility.svg",
     },
     {
       title: "Informasi dan Teknologi",
-      icon: "/src/assets/icons/it.svg",
+      icon: "./src/assets/icons/it.svg",
     },
     {
       title: "Perdangangan",
-      icon: "/src/assets/icons/perdagangan.svg",
+      icon: "./src/assets/icons/perdagangan.svg",
     },
     {
       title: "Ekonomi dan Bisnis",
-      icon: "/src/assets/icons/ekonomi.svg",
+      icon: "./src/assets/icons/ekonomi.svg",
     },
     {
       title: "Utility dan Limbah",
-      icon: "/src/assets/icons/utility.svg",
+      icon: "./src/assets/icons/utility.svg",
     },
     {
       title: "Perindustrian",
-      icon: "/src/assets/icons/perindustrian.svg",
+      icon: "./src/assets/icons/perindustrian.svg",
     },
     {
       title: "Kesehatan dan Sosial",
-      icon: "/src/assets/icons/kesehatan.svg",
+      icon: "./src/assets/icons/kesehatan.svg",
     },
     {
       title: "Kontruksi dan Real Estate",
-      icon: "/src/assets/icons/it.svg",
+      icon: "./src/assets/icons/it.svg",
     },
     {
       title: "Pemerintah dan International",
-      icon: "/src/assets/icons/pemerintah.svg",
+      icon: "./src/assets/icons/pemerintah.svg",
     },
     {
       title: "Perhotelan dan Makanan",
-      icon: "/src/assets/icons/it.svg",
+      icon: "./src/assets/icons/it.svg",
     },
     {
       title: "Utility dan Limbah",
-      icon: "/src/assets/icons/utility.svg",
+      icon: "./src/assets/icons/utility.svg",
     },
   ];
 
