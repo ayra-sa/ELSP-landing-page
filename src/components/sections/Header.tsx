@@ -36,7 +36,7 @@ const Header = () => {
               </a>
 
               <ul
-                className={`fixed z-10 bg-white h-screen w-full inset-0 py-10 px-5 flex flex-col text-3xl gap-5 transition duration-300 lg:static lg:bg-transparent lg:h-auto lg:p-0 lg:flex-row lg:text-sm lg:gap-8 lg:transform-none ${
+                className={`fixed z-10 bg-white h-screen w-full inset-0 py-10 px-5 flex flex-col text-lg gap-5 transition duration-300 lg:static lg:bg-transparent lg:h-auto lg:p-0 lg:flex-row lg:text-sm lg:gap-8 lg:transform-none ${
                   expandMenu ? "translate-x-0" : "-translate-x-full"
                 }`}
               >
