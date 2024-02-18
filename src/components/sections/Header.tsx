@@ -26,7 +26,7 @@ const Header = () => {
 
   const [expandMenu, setExpandMenu] = React.useState(false);
   return (
-    <header>
+    <header className="fixed z-20 w-full bg-white shadow-sm">
       <nav>
         <div className="container">
           <div className="flex justify-between py-5">

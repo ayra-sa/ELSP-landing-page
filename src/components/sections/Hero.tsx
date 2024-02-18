@@ -4,7 +4,7 @@ import FriendList from '/assets/images/friend-list.png'
 
 const Hero = () => {
   return (
-    <section className="bg-hero bg-center bg-cover">
+    <section className="bg-hero bg-center bg-cover pt-[20%] md:pt-[10%] lg:pt-[8%]">
       <div className="container">
         <div className="text-white text-center pt-11 pb-20 md:w-[80%] md:mx-auto lg:w-[60%]">
           <h1 className="text-lg lg:text-3xl font-semibold mb-4">

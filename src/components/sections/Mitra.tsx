@@ -1,4 +1,5 @@
 import React from "react";
+import NavigationButton from "../NavigationButton";
 
 interface MitraCardProps {
   mitra: string;
@@ -32,19 +33,45 @@ const Mitra = () => {
       mitraImage: "/assets/images/google.png",
     },
   ];
+
+  const [startIndex, setStartIndex] = React.useState(0);
+
+  const nextItems = () => {
+    setStartIndex((prevIndex) => Math.min(prevIndex + 2, mitraLSP.length - 2));
+  };
+
+  const previousItems = () => {
+    setStartIndex((prevIndex) => Math.max(prevIndex - 2, 0));
+  };
+
   return (
     <section className="py-10">
       <div className="container">
-        <h2 className="text-lg lg:text-3xl text-center">Mitra LSP yang telah bergabung</h2>
+        <h2 className="text-lg lg:text-3xl text-center">
+          Mitra LSP yang telah bergabung
+        </h2>
 
         <div className="grid grid-cols-2 gap-2 mt-8">
-          {mitraLSP.map((item, id) => (
+          {mitraLSP.slice(startIndex, startIndex + 2).map((item, id) => (
             <MitraCard
               key={id}
               mitra={item.mitra}
               mitraImage={item.mitraImage}
             />
           ))}
+        </div>
+
+        <div className="flex gap-x-4 justify-center mt-9">
+          <NavigationButton
+            direction="prev"
+            onClick={previousItems}
+            disabled={startIndex === 0}
+          />
+          <NavigationButton
+            direction="next"
+            onClick={nextItems}
+            disabled={startIndex + 2 >= mitraLSP.length}
+          />
         </div>
       </div>
     </section>

@@ -9,7 +9,7 @@ interface NavigationButtonProps extends React.ButtonHTMLAttributes<HTMLButtonEle
 
 const NavigationButton: React.FC<NavigationButtonProps> = ({direction,onClick, ...props}) => {
   return (
-    <button className="border border-[#EDEDED] flex items-center justify-center rounded-[30px] w-[52px] p-3" onClick={onClick} {...props}>
+    <button className="border border-[#EDEDED] flex items-center justify-center rounded-[30px] w-[52px] p-3 disabled:cursor-not-allowed" onClick={onClick} {...props}>
       {direction === 'next' ? (
         <img src={ArrowRight} alt="icon arrow" />
       ) : (
